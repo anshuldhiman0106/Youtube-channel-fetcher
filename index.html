@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube scrapper</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="  min-h-screen bg-linear-65 from-[#0e1c26] to-[#294861] flex justify-center items-center p-4">
+
+    <div class="w-full max-w-2xl p-4 bg-white/10 text-gray-300 backdrop-blur-md bg-white rounded-md shadow-md">
+        <h1 class="text-3xl font-bold text-center p-3">🔎 YouTube Channel Explorer</h1>
+        <p class="text-gray-300  text-center mb-4">
+        Enter a YouTube channel <span class="text-gray-100  font-semibold">username</span> to fetch its details.
+      </p>
+      <div class="w-full flex-col  items-center p-6 gap-4">
+        <div class="w-full flex justify-between items-center p-6 gap-4">
+            <input type="text" id="usernameInput" class="w-[80%] p-3 text-base rounded-md focus:outline-none" placeholder="Enter YouTube channel username...">
+            <button id="search-btn" onclick="fetchChannelByUsername()" class=" py-3 px-8 text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none">Search</button>    
+
+        </div>
+
+  <div id="output" class=" w-full mt-8 text-white text-sm leading-relaxed"></div>
+    </div>    
+    <script src="style.js"></script>
+</body>
+</html>
