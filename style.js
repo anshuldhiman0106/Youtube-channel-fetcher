@@ -1,5 +1,5 @@
 // ✅ Replace with your actual API key
-const API_KEY = 'AIzaSyDXNvKS6wa9G8FrNXPcOVh4HpzXjfMNSQ4';
+const API_KEY = 'KEY';
 
 // Skeleton Loader
 function showSkeletonLoader() {
