@@ -1,5 +1,6 @@
-// ✅ Replace with your actual API key
-const API_KEY = 'AIzaSyDcEuae5NLQ84-_QC1vtWKjKZybz9VkEJw';
+
+const API_KEY = window.YT_API_KEY; // 👈 Read from global variable
+
 
 // Skeleton Loader
 function showSkeletonLoader() {
