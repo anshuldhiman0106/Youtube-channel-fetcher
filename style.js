@@ -1,5 +1,5 @@
 // ✅ Replace with your actual API key
-const API_KEY = YT_API_KEY; 
+const API_KEY = 'YT_API_KEY'; 
 
 
 // Skeleton Loader
